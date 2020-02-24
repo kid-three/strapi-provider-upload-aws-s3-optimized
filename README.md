@@ -14,7 +14,7 @@ The S3 url will have a prefix of your size:
 
 ## Installation
 ```bash
-npm install strapi-provider-upload-s3-optimized
+npm install strapi-provider-upload-s3-optimized-caps
 ```
 
 ## Usage
