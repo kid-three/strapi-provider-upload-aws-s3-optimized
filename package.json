@@ -1,8 +1,51 @@
 {
-  "name": "strapi-provider-upload-s3-optimized-caps",
-  "version": "3.0.0-beta.17.5",
-  "description": "Strapi S3 Provider that supports any endpoint and generates optimized additional image sizes & WebP's.",
-  "license": "MIT",
+  "_args": [
+    [
+      "strapi-provider-upload-aws-s3-optimized@3.0.0-beta.16.9.1",
+      "/Users/kbarcelo/Documents/elCapitan/inl-cap-coreapi"
+    ]
+  ],
+  "_from": "strapi-provider-upload-aws-s3-optimized@3.0.0-beta.16.9.1",
+  "_id": "strapi-provider-upload-aws-s3-optimized@3.0.0-beta.16.9.1",
+  "_inBundle": false,
+  "_integrity": "sha512-aNYLQN8tByWieO4MQNTP6i1piFhMkxz4f8KjahWgbArVUmKx4HmHKNIbNMqedqd2exhMF+FO6+ARkEFUZGEK2Q==",
+  "_location": "/strapi-provider-upload-aws-s3-optimized",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "strapi-provider-upload-aws-s3-optimized@3.0.0-beta.16.9.1",
+    "name": "strapi-provider-upload-aws-s3-optimized",
+    "escapedName": "strapi-provider-upload-aws-s3-optimized",
+    "rawSpec": "3.0.0-beta.16.9.1",
+    "saveSpec": null,
+    "fetchSpec": "3.0.0-beta.16.9.1"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-provider-upload-aws-s3-optimized/-/strapi-provider-upload-aws-s3-optimized-3.0.0-beta.16.9.1.tgz",
+  "_spec": "3.0.0-beta.16.9.1",
+  "_where": "/Users/kbarcelo/Documents/elCapitan/inl-cap-coreapi",
+  "author": {
+    "name": "kid-three_forkerd_from_gfritzdev",
+    "email": "garrett.fritz.dev@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/gfritzdev/strapi-provider-upload-aws-s3-optimized/issues"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.543.0",
+    "sharp": "^0.23.1"
+  },
+  "description": "Strapi AWS S3 Provider that also generates optimized additional image sizes & WebP's.",
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.0.0"
+  },
   "homepage": "http://strapi.io",
   "keywords": [
     "upload",
@@ -10,30 +53,15 @@
     "s3",
     "strapi"
   ],
-  "directories": {
-    "lib": "lib"
-  },
+  "license": "MIT",
   "main": "./lib",
-  "dependencies": {
-    "aws-sdk": "^2.573.0",
-    "sharp": "^0.23.2"
+  "name": "strapi-provider-upload-aws-s3-optimized-caps",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kid-three/strapi-provider-upload-aws-s3-optimized-caps.git"
   },
   "strapi": {
     "isProvider": true
   },
-  "author": "kiwimonk <medicalmasterpiece@gmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/kiwimonk/strapi-provider-upload-s3-optimized-caps.git"
-  },
-  "engines": {
-    "node": ">= 10.0.0",
-    "npm": ">= 6.0.0"
-  },
-  "bugs": {
-    "url": "https://github.com/kiwimonk/strapi-provider-upload-s3-optimized/issues"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  "version": "3.0.0-beta.16.9.1"
 }
