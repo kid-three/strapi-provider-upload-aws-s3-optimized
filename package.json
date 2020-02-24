@@ -6,7 +6,6 @@
     ]
   ],
   "_from": "strapi-provider-upload-aws-s3-optimized@3.0.0-beta.16.9.1",
-  "_id": "strapi-provider-upload-aws-s3-optimized@3.0.0-beta.16.9.1",
   "_inBundle": false,
   "_integrity": "sha512-aNYLQN8tByWieO4MQNTP6i1piFhMkxz4f8KjahWgbArVUmKx4HmHKNIbNMqedqd2exhMF+FO6+ARkEFUZGEK2Q==",
   "_location": "/strapi-provider-upload-aws-s3-optimized",
@@ -27,10 +26,7 @@
   "_resolved": "https://registry.npmjs.org/strapi-provider-upload-aws-s3-optimized/-/strapi-provider-upload-aws-s3-optimized-3.0.0-beta.16.9.1.tgz",
   "_spec": "3.0.0-beta.16.9.1",
   "_where": "/Users/kbarcelo/Documents/elCapitan/inl-cap-coreapi",
-  "author": {
-    "name": "kid-three_forkerd_from_gfritzdev",
-    "email": "garrett.fritz.dev@gmail.com"
-  },
+  "author": "gfritzdev <garrett.fritz.dev@gmail.com>",
   "bugs": {
     "url": "https://github.com/gfritzdev/strapi-provider-upload-aws-s3-optimized/issues"
   },
@@ -40,7 +36,7 @@
   },
   "description": "Strapi AWS S3 Provider that also generates optimized additional image sizes & WebP's.",
   "directories": {
-    "lib": "./lib"
+    "lib": "lib"
   },
   "engines": {
     "node": ">= 10.0.0",
@@ -58,10 +54,13 @@
   "name": "strapi-provider-upload-aws-s3-optimized-caps",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kid-three/strapi-provider-upload-aws-s3-optimized-caps.git"
+    "url": "git+ssh://git@github.com/gfritzdev/strapi-provider-upload-aws-s3-optimized.git"
   },
   "strapi": {
     "isProvider": true
   },
-  "version": "3.0.0-beta.16.9.1"
+  "version": "3.0.0-beta.16.9.1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
