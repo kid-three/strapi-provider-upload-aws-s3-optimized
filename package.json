@@ -1,5 +1,5 @@
 {
-  "name": "strapi-provider-upload-s3-optimized",
+  "name": "strapi-provider-upload-s3-optimized-caps",
   "version": "3.0.0-beta.17.5",
   "description": "Strapi S3 Provider that supports any endpoint and generates optimized additional image sizes & WebP's.",
   "license": "MIT",
@@ -11,7 +11,7 @@
     "strapi"
   ],
   "directories": {
-    "lib": "./lib"
+    "lib": "lib"
   },
   "main": "./lib",
   "dependencies": {
@@ -21,16 +21,19 @@
   "strapi": {
     "isProvider": true
   },
-  "author": {
-    "email": "medicalmasterpiece@gmail.com",
-    "name": "kiwimonk"
-  },
+  "author": "kiwimonk <medicalmasterpiece@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git@github.com:kiwimonk/strapi-provider-upload-s3-optimized.git"
+    "url": "git+ssh://git@github.com/kiwimonk/strapi-provider-upload-s3-optimized-caps.git"
   },
   "engines": {
     "node": ">= 10.0.0",
     "npm": ">= 6.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/kiwimonk/strapi-provider-upload-s3-optimized/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
