@@ -1,3 +1,5 @@
+### Forked because original package cannot handle file formats in capital letters (JPG, PNG, JPEG)
+
 # strapi-provider-upload-s3-optimized
 Updated to create as many image sizes as you would like.  Comma seperate your sizes with 1920x1080 (width x height) format. 
 
