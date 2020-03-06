@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "aws-sdk": "^2.543.0",
-    "sharp": "^0.23.1"
+    "sharp": "^0.24.1"
   },
   "description": "Strapi AWS S3 Provider that also generates optimized additional image sizes & WebP's.",
   "directories": {
