@@ -31,8 +31,8 @@
     "url": "https://github.com/gfritzdev/strapi-provider-upload-aws-s3-optimized/issues"
   },
   "dependencies": {
-    "aws-sdk": "^2.543.0",
-    "sharp": "^0.24.1"
+    "aws-sdk": "2.637.0",
+    "sharp": "0.25.1"
   },
   "description": "Strapi AWS S3 Provider that also generates optimized additional image sizes & WebP's.",
   "directories": {
